@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>心結紳士</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="心結文學社.長頸鹿 giraffe@koyuisha.com">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://koyuisha.com/gentleman">
+    <meta property="og:title" content="心結文學社-紳士">
+    <meta property="og:description" content="心結文學社-紳士">
+    <meta property="og:image" content="./gentleman_logo.png">
+    <link rel="shortcut icon" href="https://koyuisha.com/logo_icon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="comment">
+            <img class="logoimg" src="./gentleman_logo.png">
+            <div class="paramerDiv">
+                <label style="color: rgb(219, 227, 235);"><span style="color: red;">*</span>不給完整網址，給名稱、作者、類別或是oo網oooo作品，作為紳士要有搜尋的能力
+                    <br>e.g.  n網 123456 | p站 oooo | https冒號//0000點com/0000
+                    <br>如內容會令人感到噁心，心情不愉快，請斟酌分享
+                </label><br>
+                <br>
+                <textarea id="commentTextArea" class="textinput" placeholder="請輸入您的作品，祝福大大一生平安" oninput="autoGrow(this)" maxlength="1000"></textarea>
+            </div>
+        </div>
+        <button class="comment sendButton" onclick="send(this)">送出</button>
+    </div>
+</body>
+
+</html>
